@@ -1,12 +1,51 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
+.th{
+    text-align: left;
+}
+.img{
+    width: 100%;
+    margin-bottom: 10px;
 
+}
+.outline{
+    border: 1px solid;
+    width: 60%;
+    margin: 10px auto;
+
+}
 .judul{
     text-align: center;
-    background-color: aqua;
+    background: fixed;
+
+}
+.blok{
+    overflow: hidden;
+}
+.kiri{
+    width: 100%;
+
+}
+.kanan{
+    width: 70%%;
+    padding: 0px;
 }
 
-.isi{
-    padding: 20px;
+@media screen (max-width: 768px){
+    .outline{
+        width: 100px;
+        padding: 0px;
+        border:none;
+    }
+
 }
+.kiri{
+    width: 100px;
+}
+.kanan{
+    width: 100px;
+    padding:0px;
+}
+    

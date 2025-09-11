@@ -2,10 +2,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
-.th{
+th{
     text-align: left;
 }
-.img{
+img{
     width: 100%;
     margin-bottom: 10px;
 
@@ -25,7 +25,8 @@ body{
     overflow: hidden;
 }
 .kiri{
-    width: 100%;
+    width: 20%;
+    float: left;
 
 }
 .kanan{
@@ -33,19 +34,4 @@ body{
     padding: 0px;
 }
 
-@media screen (max-width: 768px){
-    .outline{
-        width: 100px;
-        padding: 0px;
-        border:none;
-    }
 
-}
-.kiri{
-    width: 100px;
-}
-.kanan{
-    width: 100px;
-    padding:0px;
-}
-    
